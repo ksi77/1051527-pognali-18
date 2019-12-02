@@ -1,7 +1,7 @@
 # Личный проект «Погнали» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Ксения Косыгина](https://up.htmlacademy.ru/adaptive/18/user/1051527).
-* Наставник: `Неизвестно`.
+* Наставник: `Максим Прусаков`.
 
 ---
 
