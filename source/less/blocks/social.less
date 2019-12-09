@@ -1,0 +1,38 @@
+.social {
+  display: flex;
+  justify-content: center;
+
+  &--on-white {
+    @color: #cccccc;
+  }
+
+  &--footer {
+    .social__link {
+      background-color: #ffd74b;
+      width: 45px;
+      height: 45px;
+    }
+
+    .social__item {
+      margin: 0;
+    }
+  }
+}
+
+.social__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.social__item {
+  margin: 0 12px;
+}
+
+.social__link {
+  display: block;
+  width: 21px;
+  height: 21px;
+  background-color: gray;
+  border-radius: 50%;
+}

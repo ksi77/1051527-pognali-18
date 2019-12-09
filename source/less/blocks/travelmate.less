@@ -1,0 +1,156 @@
+.travelmate {
+  .bordered;
+  position: relative;
+  font-size: 21px;
+
+  &--index-page {
+    padding-top: 270px;
+    padding-bottom: 22px;
+    background-color: white;
+
+    .travelmate__name {
+      position: relative;
+    }
+
+    .travelmate__status {
+      position: absolute;
+      left: -20px;
+      top: 8px;
+    }
+
+    .travelmate__countries {
+      position: absolute;
+      top: -12px;
+    }
+
+    .travelmate__countries-list {
+      display: flex;
+    }
+
+    .travelmate__level {
+      position: absolute;
+      top: -250px;
+      left: @padding-left--block;
+    }
+
+    .travelmate__img {
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  &--catalog-page {
+    .container;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+
+    .travelmate__img-wrapper {
+      position: relative;
+      display: block;
+      border-radius: 50%;
+      background-color: gray;
+      width: 70px;
+      height: 70px;
+    }
+
+    .travelmate__img {
+      position: absolute;
+    }
+
+    .travelmate__name-wrapper {
+      margin-left: 16px;
+      width: 80px;
+    }
+
+    .travelmate__name {
+      text-align: left;
+    }
+
+    .travelmate__hashtags {
+      margin-top: 16px;
+    }
+
+    .travelmate__title-line {
+      display: flex;
+      margin-bottom: 16px;
+    }
+
+    .travelmate__last-line {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .travelmate__text {
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: normal;
+      padding: 0;
+    }
+  }
+}
+
+.travelmate__name {
+  color: #1d2e5b;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.travelmate__in-favorites {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+  display: block;
+  width: 31px;
+  height: 31px;
+  text-indent: -500px;
+  border-radius: 50%;
+
+  &--yes {
+    background-color: red;
+  }
+
+  &--no {
+    background-color: blue;
+  }
+}
+
+.travelmate__status {
+  display: block;
+  margin-right: 9px;
+  text-indent: -500px;
+  width: 5px;
+  height: 5px;
+  background-color: #f97676;
+  border-radius: 50%;
+
+  &--online {
+    background-color: #81e31e;
+  }
+}
+
+.travelmate__content {
+  .container;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.travelmate__transport {
+  margin-top: 17px;
+}
+
+.travelmate__countries-list {
+  list-style: none;
+  padding: 0;
+}
+
+.travelmate__friends {
+  color: #161c35;
+  font-size: 14px;
+  font-weight: bold;
+}
